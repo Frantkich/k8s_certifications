@@ -1,0 +1,5 @@
+tofy plan -out main.apply.tfplan 
+tofu apply main.apply.tfplan
+
+tofu plan -destroy -out main.destroy.tfplan
+tofu apply main.destroy.tfplan
